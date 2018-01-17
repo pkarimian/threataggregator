@@ -1,6 +1,6 @@
 #!/bin/python
 
-host = '172.16.30.210'
+host = '127.0.0.1'
 port = 514
 deviceVendor = "Threat Intelligence DB"
 deviceProduct = "ThreatDB"

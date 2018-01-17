@@ -399,6 +399,7 @@ def ipfeed(url, description, data):
     """
     repdb = RepDB()
     for line in data:
+        print(re_ipcidr)
         ipmatch = re.match(re_ipcidr, line)
         if ipmatch:
             ip = ipmatch.group(0)
@@ -469,6 +470,7 @@ def alienvault(url, data):
 
     for d in data:
         if check_reputation_format(d) and d != "":
+            print(re.match(re_ipcidr,d))
             if d[0] == "-":
                 continue
             if d[0] == "+":
