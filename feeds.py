@@ -47,7 +47,7 @@ feeds = [
     dict(
         type='malcode',
         url='http://malc0de.com/bl/IP_Blacklist.txt',
-        itype='Misc',
+        itype='Misc.',
         source='Malc0de',
         description='Amalc0de.com IPs'),
     dict(
